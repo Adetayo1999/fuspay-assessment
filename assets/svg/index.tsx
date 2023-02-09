@@ -56,7 +56,7 @@ export const LogoIcon = ({ scale, color }: IconType) => {
 
 LogoIcon.defaultProps = {
   scale: 1,
-  fill: "#1156DD",
+  color: "#1156DD",
 };
 
 export const OverviewIcon = ({ color, scale }: IconType) => (
@@ -70,30 +70,30 @@ export const OverviewIcon = ({ color, scale }: IconType) => (
     <path
       d="M17.4167 6.74501V3.15084C17.4167 2.03459 16.91 1.58334 15.6513 1.58334H12.4529C11.1942 1.58334 10.6875 2.03459 10.6875 3.15084V6.73709C10.6875 7.86126 11.1942 8.30459 12.4529 8.30459H15.6513C16.91 8.31251 17.4167 7.86126 17.4167 6.74501Z"
       stroke={color}
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M17.4167 15.6513V12.4529C17.4167 11.1942 16.91 10.6875 15.6513 10.6875H12.4529C11.1942 10.6875 10.6875 11.1942 10.6875 12.4529V15.6513C10.6875 16.91 11.1942 17.4167 12.4529 17.4167H15.6513C16.91 17.4167 17.4167 16.91 17.4167 15.6513Z"
       stroke={color}
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M8.31248 6.74501V3.15084C8.31248 2.03459 7.80581 1.58334 6.54706 1.58334H3.34873C2.08998 1.58334 1.58331 2.03459 1.58331 3.15084V6.73709C1.58331 7.86126 2.08998 8.30459 3.34873 8.30459H6.54706C7.80581 8.31251 8.31248 7.86126 8.31248 6.74501Z"
       stroke={color}
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M8.31248 15.6513V12.4529C8.31248 11.1942 7.80581 10.6875 6.54706 10.6875H3.34873C2.08998 10.6875 1.58331 11.1942 1.58331 12.4529V15.6513C1.58331 16.91 2.08998 17.4167 3.34873 17.4167H6.54706C7.80581 17.4167 8.31248 16.91 8.31248 15.6513Z"
       stroke={color}
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
@@ -114,30 +114,30 @@ export const FinanceIcon = ({ color, scale }: IconType) => (
     <path
       d="M9.23975 9.84375H11.2085"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M18.2697 10.3612C15.8762 11.7459 13.1591 12.473 10.394 12.4686C7.62933 12.473 4.91268 11.7462 2.51953 10.3619"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M14.1226 5.90625V4.59375C14.1226 4.24565 13.9843 3.91181 13.7381 3.66567C13.492 3.41953 13.1582 3.28125 12.8101 3.28125H8.87256C8.52446 3.28125 8.19062 3.41953 7.94448 3.66567C7.69834 3.91181 7.56006 4.24565 7.56006 4.59375V5.90625"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M17.6138 5.90625H3.17627C2.81383 5.90625 2.52002 6.20006 2.52002 6.5625V17.0625C2.52002 17.4249 2.81383 17.7188 3.17627 17.7188H17.6138C17.9762 17.7188 18.27 17.4249 18.27 17.0625V6.5625C18.27 6.20006 17.9762 5.90625 17.6138 5.90625Z"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
@@ -162,30 +162,30 @@ export const PaymentIcon = ({ color, scale }: IconType) => (
     <path
       d="M14.8912 9.07585L17.5123 12.2211C17.5766 12.2982 17.6223 12.389 17.6459 12.4865C17.6696 12.584 17.6706 12.6857 17.6488 12.7836L16.6347 17.3473C16.6105 17.4561 16.559 17.5569 16.4851 17.6403C16.4111 17.7237 16.3172 17.7869 16.2121 17.8239C16.107 17.8609 15.9942 17.8706 15.8843 17.8519C15.7744 17.8333 15.6711 17.787 15.5841 17.7174L13.125 15.7501"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M6.05925 9.13509L3.48755 12.2211C3.42332 12.2982 3.37761 12.389 3.35395 12.4865C3.33029 12.584 3.32931 12.6856 3.35108 12.7836L4.36522 17.3473C4.3894 17.456 4.44088 17.5569 4.51481 17.6403C4.58874 17.7237 4.68269 17.7868 4.7878 17.8239C4.89291 17.8609 5.00572 17.8705 5.11559 17.8519C5.22546 17.8333 5.32878 17.787 5.4158 17.7173L7.87488 15.7501"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M10.0875 1.62141C8.52949 2.86944 3.31855 7.85653 7.87503 15.7502H13.125C17.5868 7.86212 12.4521 2.8765 10.9104 1.62406C10.7942 1.5296 10.6492 1.47781 10.4994 1.47733C10.3497 1.47685 10.2043 1.5277 10.0875 1.62141V1.62141Z"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M11.8125 18.375H9.1875"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
@@ -228,30 +228,30 @@ export const CalendarIcon = ({ color, scale }: IconType) => (
     <path
       d="M16.625 3.5H4.375C3.4085 3.5 2.625 4.2835 2.625 5.25V17.5C2.625 18.4665 3.4085 19.25 4.375 19.25H16.625C17.5915 19.25 18.375 18.4665 18.375 17.5V5.25C18.375 4.2835 17.5915 3.5 16.625 3.5Z"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M14 1.75V5.25"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M7 1.75V5.25"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M2.625 8.75H18.375"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
@@ -264,8 +264,8 @@ CalendarIcon.defaultProps = {
 export const USAIcon = ({ scale }: IconType) => {
   return (
     <svg
-      width={scale! * 26}
-      height={scale! * 26}
+      width="26"
+      height="26"
       viewBox="0 0 26 26"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -314,7 +314,7 @@ export const TronIcon = ({ scale }: IconType) => (
       rx="16.622"
       fill="url(#pattern0)"
       stroke="white"
-      stroke-width="2.2439"
+      strokeWidth="2.2439"
     />
     <defs>
       <pattern
@@ -437,16 +437,16 @@ export const ProfileIcon = ({ color, scale }: IconType) => (
     <path
       d="M16.6667 18.625V16.6667C16.6667 15.6279 16.254 14.6317 15.5195 13.8972C14.785 13.1626 13.7888 12.75 12.75 12.75H4.91667C3.8779 12.75 2.88168 13.1626 2.14716 13.8972C1.41265 14.6317 1 15.6279 1 16.6667V18.625"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M8.83317 8.83333C10.9963 8.83333 12.7498 7.07978 12.7498 4.91667C12.7498 2.75355 10.9963 1 8.83317 1C6.67006 1 4.9165 2.75355 4.9165 4.91667C4.9165 7.07978 6.67006 8.83333 8.83317 8.83333Z"
       stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
@@ -456,50 +456,50 @@ ProfileIcon.defaultProps = {
   scale: 1,
 };
 
-export const PaymentIcon = ({ scale, color }: IconType) => (
-  <svg
-    width={scale! * 21}
-    height={scale! * 21}
-    viewBox="0 0 21 21"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M10.5 8.85938C11.0437 8.85938 11.4844 8.41866 11.4844 7.875C11.4844 7.33134 11.0437 6.89062 10.5 6.89062C9.95634 6.89062 9.51562 7.33134 9.51562 7.875C9.51562 8.41866 9.95634 8.85938 10.5 8.85938Z"
-      fill={color}
-    />
-    <path
-      d="M14.8912 9.07585L17.5123 12.2211C17.5766 12.2982 17.6223 12.389 17.6459 12.4865C17.6696 12.584 17.6706 12.6857 17.6488 12.7836L16.6347 17.3473C16.6105 17.4561 16.559 17.5569 16.4851 17.6403C16.4111 17.7237 16.3172 17.7869 16.2121 17.8239C16.107 17.8609 15.9942 17.8706 15.8843 17.8519C15.7744 17.8333 15.6711 17.787 15.5841 17.7174L13.125 15.7501"
-      stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-    <path
-      d="M6.05925 9.13509L3.48755 12.2211C3.42332 12.2982 3.37761 12.389 3.35395 12.4865C3.33029 12.584 3.32931 12.6856 3.35108 12.7836L4.36522 17.3473C4.3894 17.456 4.44088 17.5569 4.51481 17.6403C4.58874 17.7237 4.68269 17.7868 4.7878 17.8239C4.89291 17.8609 5.00572 17.8705 5.11559 17.8519C5.22546 17.8333 5.32878 17.787 5.4158 17.7173L7.87488 15.7501"
-      stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-    <path
-      d="M10.0875 1.62141C8.52949 2.86944 3.31855 7.85653 7.87503 15.7502H13.125C17.5868 7.86212 12.4521 2.8765 10.9104 1.62406C10.7942 1.5296 10.6492 1.47781 10.4994 1.47733C10.3497 1.47685 10.2043 1.5277 10.0875 1.62141V1.62141Z"
-      stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-    <path
-      d="M11.8125 18.375H9.1875"
-      stroke={color}
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-  </svg>
-);
+// export const PaymentIcon = ({ scale, color }: IconType) => (
+//   <svg
+//     width={scale! * 21}
+//     height={scale! * 21}
+//     viewBox="0 0 21 21"
+//     fill="none"
+//     xmlns="http://www.w3.org/2000/svg"
+//   >
+//     <path
+//       d="M10.5 8.85938C11.0437 8.85938 11.4844 8.41866 11.4844 7.875C11.4844 7.33134 11.0437 6.89062 10.5 6.89062C9.95634 6.89062 9.51562 7.33134 9.51562 7.875C9.51562 8.41866 9.95634 8.85938 10.5 8.85938Z"
+//       fill={color}
+//     />
+//     <path
+//       d="M14.8912 9.07585L17.5123 12.2211C17.5766 12.2982 17.6223 12.389 17.6459 12.4865C17.6696 12.584 17.6706 12.6857 17.6488 12.7836L16.6347 17.3473C16.6105 17.4561 16.559 17.5569 16.4851 17.6403C16.4111 17.7237 16.3172 17.7869 16.2121 17.8239C16.107 17.8609 15.9942 17.8706 15.8843 17.8519C15.7744 17.8333 15.6711 17.787 15.5841 17.7174L13.125 15.7501"
+//       stroke={color}
+//       strokeWidth="2"
+//       strokeLinecap="round"
+//       strokeLinejoin="round"
+//     />
+//     <path
+//       d="M6.05925 9.13509L3.48755 12.2211C3.42332 12.2982 3.37761 12.389 3.35395 12.4865C3.33029 12.584 3.32931 12.6856 3.35108 12.7836L4.36522 17.3473C4.3894 17.456 4.44088 17.5569 4.51481 17.6403C4.58874 17.7237 4.68269 17.7868 4.7878 17.8239C4.89291 17.8609 5.00572 17.8705 5.11559 17.8519C5.22546 17.8333 5.32878 17.787 5.4158 17.7173L7.87488 15.7501"
+//       stroke={color}
+//       strokeWidth="2"
+//       strokeLinecap="round"
+//       strokeLinejoin="round"
+//     />
+//     <path
+//       d="M10.0875 1.62141C8.52949 2.86944 3.31855 7.85653 7.87503 15.7502H13.125C17.5868 7.86212 12.4521 2.8765 10.9104 1.62406C10.7942 1.5296 10.6492 1.47781 10.4994 1.47733C10.3497 1.47685 10.2043 1.5277 10.0875 1.62141V1.62141Z"
+//       stroke={color}
+//       strokeWidth="2"
+//       strokeLinecap="round"
+//       strokeLinejoin="round"
+//     />
+//     <path
+//       d="M11.8125 18.375H9.1875"
+//       stroke={color}
+//       strokeWidth="2"
+//       strokeLinecap="round"
+//       strokeLinejoin="round"
+//     />
+//   </svg>
+// );
 
-PaymentIcon.defaultProps = {
-  scale: 1,
-  color: "#B8BED9",
-};
+// PaymentIcon.defaultProps = {
+//   scale: 1,
+//   color: "#B8BED9",
+// };

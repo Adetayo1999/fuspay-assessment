@@ -1,0 +1,15 @@
+.card-one {
+  background-color: #ebe3ff;
+}
+
+.card-two {
+  background-color: hsl(42, 100%, 89%);
+}
+
+.card-three {
+  background-color: #e0e5ff;
+}
+
+.cards__container::-webkit-scrollbar {
+  width: 0;
+}
